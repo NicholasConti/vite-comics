@@ -37,13 +37,18 @@ export default {
 <template>
     <div>
         <ul>
-            <li v-for="shopLink in shopLinks"><a href="shopLink.link"><img :src="shopLink.img" alt="ciao">{{ shopLink.name }}</a></li>
+            <li v-for="shopLink in shopLinks"><a href="shopLink.link"><img :src="shopLink.img" alt="ciao">{{ shopLink.name
+            }}</a></li>
         </ul>
     </div>
 </template>
 <style lang="scss" scoped>
 @use '../styles/general.scss' as *;
 @use '../styles/variables.scss' as *;
+
+* {
+    z-index: 100;
+}
 
 div {
     padding: 50px 0;
@@ -65,7 +70,8 @@ a {
     align-items: center;
     gap: 15px;
 }
-img{
+
+img {
     height: 55px;
 }
 </style>

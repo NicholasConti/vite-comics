@@ -154,7 +154,7 @@ export default {
 @use '../styles/general.scss' as *;
 
 div.row {
-    padding: 30px 0;
+    padding-top: 30px;
     background-image: url(../../public/footer-bg.jpg);
     background-size: cover;
 
@@ -170,7 +170,7 @@ img {
     z-index: 1;
     right: 0;
     bottom: 0;
-    transform: translateY(+10%);
+    transform: translateY(+15%);
 }
 
 ul {

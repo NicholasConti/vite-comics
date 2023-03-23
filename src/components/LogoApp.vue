@@ -9,5 +9,7 @@ export default {
 <style lang="scss" scoped>
 img {
     width: 80px;
+    padding: 20px 0;
+    
 }
 </style>

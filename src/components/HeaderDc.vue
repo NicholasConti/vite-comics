@@ -21,7 +21,6 @@ export default {
 
 header {
     @include my-container;
-    padding: 20px 0;
     justify-content: space-between;
 }
 </style>

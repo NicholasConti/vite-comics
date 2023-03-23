@@ -67,7 +67,7 @@ ul {
 
 li {
     height: 100%;
-    line-height: 75px;
+    line-height: 115px;
 
     &:hover {
         color: $dc-color;

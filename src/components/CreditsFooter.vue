@@ -118,6 +118,7 @@ export default {
 <template>
     <div class="row">
         <div>
+            <!-- CREDITS CREATED W/VUE-->
             <ul class="list-credits">
                 <li class="title-credit">DC COMICS
                     <ul>
@@ -143,8 +144,6 @@ export default {
                         </li>
                     </ul>
                 </li>
-
-
             </ul>
             <img src="../../public/dc-logo-bg.png" alt="">
         </div>

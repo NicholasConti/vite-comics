@@ -3,6 +3,7 @@ export default {
     nome: 'NavBar',
     data() {
         return {
+            //MENU NAV
             linksNav: [
                 {
                     name: 'Character',
@@ -51,6 +52,7 @@ export default {
 </script>
 <template>
     <ul>
+        <!-- CICLE VUE -->
         <li v-for="link in linksNav"><a href="{{ link.link }}">{{ link.name }}</a></li>
     </ul>
 </template>

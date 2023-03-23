@@ -3,6 +3,7 @@ export default {
     nome: 'NavFooter',
     data() {
         return {
+            //ARRAY MENU
             shopLinks: [
                 {
                     name: 'DIGITAL COMICS',
@@ -37,6 +38,7 @@ export default {
 <template>
     <div>
         <ul>
+            <!-- NAV CREATED W/VUE -->
             <li v-for="shopLink in shopLinks"><a href="shopLink.link"><img :src="shopLink.img" alt="ciao">{{ shopLink.name
             }}</a></li>
         </ul>

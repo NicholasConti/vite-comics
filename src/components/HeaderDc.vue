@@ -11,8 +11,12 @@ export default {
 </script>
 <template>
     <header>
+        <!-- LOGO -->
         <LogoApp></LogoApp>
+        <!-- /LOGO -->
+        <!-- NAV -->
         <NavDC></NavDC>
+        <!-- /NAV -->
     </header>
 </template>
 <style lang="scss" scoped>

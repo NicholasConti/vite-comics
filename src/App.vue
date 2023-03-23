@@ -13,9 +13,15 @@ export default {
 </script>
 
 <template>
+    <!-- HEADER -->
     <HeaderDcVue></HeaderDcVue>
+    <!-- /HEADER -->
+    <!-- MAIN -->
     <MainDC></MainDC>
+    <!-- /MAIN -->
+    <!-- FOOTER -->
     <FooterDC></FooterDC>
+    <!-- /FOOTER -->
 </template>
 
 <style lang="scss">

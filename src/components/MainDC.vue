@@ -1,29 +1,15 @@
 <script>
+import JumbotronDc from './JumbotronDc.vue';
 export default {
-    nome: 'Main'
+    nome: 'Main',
+    components: {
+        JumbotronDc
+    }
 }
 </script>
 <template>
-    <div>
-        <main>
-            <h1>CONTENT HERE</h1>
-        </main>
-    </div>
+    <main>
+        <JumbotronDc></JumbotronDc>
+    </main>
 </template>
-<style lang="scss" scoped>
-@use '../styles/general.scss' as *;
-
-div {
-    padding: 50px 0;
-    background-color: #1c1c1c;
-}
-
-main {
-    @include my-container;
-}
-
-h1 {
-    color: white;
-    font-size: 40px;
-}
-</style>
+<style lang="scss" scoped></style>

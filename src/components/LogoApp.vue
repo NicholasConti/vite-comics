@@ -10,6 +10,6 @@ export default {
 img {
     width: 80px;
     padding: 20px 0;
-    
+
 }
 </style>

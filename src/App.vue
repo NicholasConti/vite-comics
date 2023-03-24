@@ -1,4 +1,5 @@
 <script>
+import "@fontsource/montserrat";
 import HeaderDcVue from './components/HeaderDc.vue';
 import MainDC from './components/MainDC.vue';
 import FooterDC from './components/FooterDC.vue';
